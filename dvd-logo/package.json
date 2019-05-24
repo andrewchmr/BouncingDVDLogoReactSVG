@@ -2,7 +2,7 @@
   "name": "dvd-logo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/andrewchmr/BouncingDVDLogoReactSVG",
+  "homepage": "https://andrewchmr.github.io/BouncingDVDLogoReactSVG",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
@@ -10,9 +10,9 @@
     "react-scripts-ts": "3.1.0"
   },
   "scripts": {
+    "start": "react-scripts-ts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
