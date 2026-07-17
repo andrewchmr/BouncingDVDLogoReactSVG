@@ -14,7 +14,7 @@ class App extends React.Component {
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <h1 className="App-title">Bouncing DVD Logo (SVG + React)</h1>
+                    <h1 className="App-title">The Iconic Bouncing DVD Logo</h1>
                 </header>
                 <p className="App-intro"/>
                 <svg width={svgWidth} height={svgHeight} style={{backgroundColor: 'black'}}>
